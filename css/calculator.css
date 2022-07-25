@@ -1,0 +1,121 @@
+﻿
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #353b48 !important;
+
+}
+
+.main-clac {
+     height: 460px;
+     border-radius: 20px;
+     width: 100%;
+     margin-top: 50px;
+}
+.result {
+ margin-top: 75px;
+    width: 465px;
+    padding: 33px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.grid {
+    padding: 25px;
+}
+
+
+.item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px 14px;
+    
+    text-align: center;
+    line-height: 0.6;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+.item:hover {
+    background-color: #ddd;
+}
+
+.equal {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 26px 20px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 0.6;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+.equal:hover {
+    background-color: #ddd;
+}
+.clear {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px 14px;
+ 
+    text-align: center;
+    line-height: 0.6;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+    font-weight: bold; 
+}
+.clear:hover {
+    background-color: #ddd;
+}
+.screen {
+    list-style:none;
+	color:white;
+	height: 90px;
+	border-radius:8px;
+	text-align:center;
+	font-weight:bold;
+    width: 100% ;
+	background:#ddd;
+    transition: all 0.4s;
+} 
+.opa {
+    opacity: 0.5;
+}
+.screen p {
+    margin-top: 15px;
+    color: darkslateblue;
+    font-size: 22px;
+    padding: 15px;
+}
+ .cal {
+     border: 2px solid #fff;
+     border-radius: 10px;
+ }
+ .on {
+     background-color: green !important;
+    color: #fff !important;
+    transition: all 0.5s !important;
+ }
+ 
+ .toggle {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    background-color: brown;
+    color: #fff;
+ }
